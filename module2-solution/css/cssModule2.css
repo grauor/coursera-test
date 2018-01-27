@@ -8,6 +8,7 @@ h1 {
   text-align: center;
   font-family: Verdana, Helvetica, Arial;
   font-size:1.75em;
+  color: white;
 }
 p {
 
@@ -15,8 +16,12 @@ p {
   margin-left: auto;
   font-family: Verdana, Helvetica, Arial;
   color: white;
-  
+}
 
+
+body {
+	background-image: url("background.jpg");
+	/*background-color: #FEF5CA;*/
 
 }
 
@@ -85,15 +90,17 @@ font-size:1.25em;
   text-align: justify;
 }
 
-div#container1 {
+.container1 {
 position: relative;
 background-color: #7d8182;
 height: 190px;
 border:1px solid black;
 }
 
-div#container{
-border:10px solid white;
+div.container{
+/*border:10px solid white;*/
+padding:10px;
+border:none;
 }
 
 
