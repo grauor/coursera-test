@@ -8,7 +8,8 @@ h1 {
   text-align: center;
   font-family: Verdana, Helvetica, Arial;
   font-size:1.75em;
-  color: #ece1e1;
+  color: black;
+  padding-top:15px;
 }
 p {
 
@@ -16,7 +17,8 @@ p {
   margin-left: auto;
   font-family: Verdana, Helvetica, Arial;
   color: white;
-
+  padding: 15px;
+  margin:0px;
 }
 
 
