@@ -1,0 +1,180 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-image: url("../images/background.jpg");
+  font-family: verdana, arial;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #663300;
+  border-radius: 0;
+  border: 0;
+	
+}
+
+
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: Rockwell, verdana, arial;
+  color: #ff9900;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #ff9900;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #ff9900;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -65px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+.container .jumbotron {
+  box-shadow: 0 0 50px #3F0C1F;
+  border: 2px solid #ff9900;
+  width: 100%;
+  padding:10px;
+  
+}
+
+#our-menu-title {
+  margin-bottom: 30px;
+  margin-top:0;
+  font-family: Rockwell, verdana, arial;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+}
+
+.food-title {
+	margin-top: 10px;
+	color: #ff9900;
+}
+
+.jumbotron {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+/* END HOME PAGE */
+
+/********** Large devices only **********/
+
+  /* Home Page */
+ @media (min-width: 991px) {
+  .container .jumbotron {
+    background-color: grey;
+    height: 100%;
+  }
+  	#header-nav {
+	height:60px;
+	}
+
+	.navbar-brand h1{
+	margin-top: -10px;
+	}
+
+ }
+  /* End Home Page */
+
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+    background-color: grey;
+    height: 100%;
+  }
+
+	#header-nav {
+	height:60px;
+	}
+
+	.navbar-brand h1{
+	margin-top: -10px;
+	}
+  
+  }
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Brand name */
+    padding-top: 10px;
+    /*font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+	padding-left: 20px;
+    padding-right: 20px;
+    background-color: grey;
+    height: 100%;
+  }
+  
+
+  
+  }
+
+}
