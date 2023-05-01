@@ -1,0 +1,8 @@
+move holidays to paid time
+Parlar Alberto - Desgrabar
+web Sergio
+parlar Jean Phillipe
+Curs: https://iecah.org/index.php/cursos-y-proyectos/3520-curso-virtual-identificacion-y-valoracion-de-necesidades-humanitarias-3
+***********
+
+citation("ROCR")
